@@ -8,6 +8,8 @@ import javax.validation.constraints.NotNull;
 @Data
 public class CustomerRequest {
 
+
+
     @NotNull
     private Customer customer;
 }
