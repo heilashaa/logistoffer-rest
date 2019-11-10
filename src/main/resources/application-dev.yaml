@@ -1,0 +1,9 @@
+application:
+  api-info:
+    version: 1.0
+    title: Logistic offer REST
+    description: Customer order management application
+    license: free
+    contact:
+      name: Alexandr Heilash
+      email: alexandr.heilash@gmail.com

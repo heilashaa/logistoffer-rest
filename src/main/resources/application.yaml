@@ -1,0 +1,25 @@
+#swagger
+application:
+  api-info:
+    version: 1.0
+    title: Logistic offer REST
+    description: Customer order management application
+    license: free
+    contact:
+      name: Alexandr Heilash
+      email: alexandr.heilash@gmail.com
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/logistoffer
+    username: Alexandr
+    password: 2Hne8b7t
+  application:
+    name: Logistic offer REST
+  profiles:
+    active: '@activated.profile@'
